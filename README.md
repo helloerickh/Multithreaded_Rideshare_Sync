@@ -7,6 +7,8 @@ Consumer threads are notified of existing requests and remove them from the brok
 
 To synchronize muliple threads running I used semaphores which will create a critical section and ensure the integrity of the broker buffer and counts.
 
+<img src="shared_access.png" width=80% height=80%>
+
 Challenges
  
 * Ensure that when a critical piece of memory is accessed or manipulated, no other thread may have access to it.
