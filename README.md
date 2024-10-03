@@ -29,7 +29,7 @@ Example: ./rideshare -n 50 -h 2 -r 1 -c 3 -f 3
 
 
 Output
-
+```
 Broker: 0 HDR + 1 RDR = 1. Added Robot Driver Request. Produced: 0 HDR + 1 RDR = 1 in 0.000 s.
 Broker: 0 HDR + 0 RDR = 0. CostAlgo Dispatcher consumed Robot Driver Request.  CostAlgo Dispatcher totals: 0 HDR + 1 RDR = 1 consumed in 0.000 s.
 Broker: 1 HDR + 0 RDR = 1. Added Human Driver Request. Produced: 1 HDR + 1 RDR = 2 in 0.001 s.
@@ -138,3 +138,4 @@ Robot Driver Request producer generated 33 requests
 CostAlgo Dispatcher consumed 8 HDR + 17 RDR = 25 total
 FastAlgo Dispatcher consumed 9 HDR + 16 RDR = 25 total
 Elapsed time 0.078 s
+```
